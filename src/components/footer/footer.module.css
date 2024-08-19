@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    color: gray;
+}
+.logo{
+    font-weight: bold;
+}
+.text{
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-around;
+    }
+}
